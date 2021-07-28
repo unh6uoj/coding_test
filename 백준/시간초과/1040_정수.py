@@ -6,7 +6,9 @@
 # 예제 입력 : 47 1 -> 55
 # 예제 입력 : 12364 3 -> 12411
 
-N, K = input().split()
+import sys
+
+N, K = sys.stdin.readline().split()
 N = int(N)
 K = int(K)
 
