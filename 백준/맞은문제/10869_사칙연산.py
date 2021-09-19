@@ -1,0 +1,10 @@
+a, b = input().split()
+a = int(a)
+b = int(b)
+
+print(a+b)
+print(a-b)
+print(a*b)
+r = divmod(a, b)
+print(r[0])
+print(r[1])
